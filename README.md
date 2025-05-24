@@ -61,3 +61,5 @@ mvn clean install
 
 # Run application
 mvn javafx:run
+[![CodeQL](https://github.com/[USER]/kanban-task-manager/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/[USER]/kanban-task-manager/actions)
+[![Codacy Grade](https://app.codacy.com/project/badge/Grade/[PROJECT_ID])](https://www.codacy.com)
