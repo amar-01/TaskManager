@@ -1,53 +1,63 @@
-# 🚀 Kanban Task Manager - Professional JavaFX Application
+# 🚀 Kanban Task Manager - JavaFX Productivity Suite
 
-[![Java](https://img.shields.io/badge/Java-17+-orange?logo=java)](https://java.com)
-[![JavaFX](https://img.shields.io/badge/JavaFX-17+-brightgreen?logo=javafx)](https://openjfx.io)
-[![SQLite](https://img.shields.io/badge/SQLite-3.40-blue?logo=sqlite)](https://sqlite.org)
-[![License](https://img.shields.io/badge/License-MIT-purple)](LICENSE)
+[![Java](https://img.shields.io/badge/Java-17-%23ED8B00?logo=java)](https://www.java.com)
+[![JavaFX](https://img.shields.io/badge/JavaFX-17-%234DABF7?logo=javafx)](https://openjfx.io)
+[![License](https://img.shields.io/badge/License-MIT-%2300ADD8)](LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/[YOUR_USERNAME]/kanban-task-manager?style=social)](https://github.com/[YOUR_USERNAME]/kanban-task-manager)
 
-**A Modern Kanban-Style Task Management Application**  
-*Showcases Advanced Java Development Skills with Production-Grade Features*
+**Professional Task Management Solution** • **Drag-and-Drop Interface** • **SQLite Database** • **Modern UI**
 
-![App Demo](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXJhODR0bHl0OHJ3a2N3M3Zub3V4eG1iNGJ4eW9sa3FzZ2V3b2QyayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/your-demo-gif-link-here.gif)
-*(Replace with your actual demo GIF - Use [ScreenToGif](https://www.screentogif.com/) to record)*
+![App Screenshot](https://via.placeholder.com/800x400.png?text=Kanban+Task+Manager+Demo)
+*(Replace with actual screenshot URL)*
 
-## 🌟 Featured In
-- [**"Top 10 Java Projects to Boost Your Resume"**](https://example.com) - TechCareer Magazine
-- [**Featured Project**](https://example.com) - Java Developers Weekly
+## ✨ Features
 
-## 🎯 Key Features
+### Core Functionality
+| Feature | Description |
+|---------|-------------|
+| **Kanban Board** | Intuitive column-based workflow (To-Do/In Progress/Done) |
+| **Drag-and-Drop** | Smooth task movement between columns |
+| **Task Details** | Title, description, due dates, priority levels |
+| **Data Persistence** | SQLite database with CRUD operations |
+| **Search & Filter** | Find tasks instantly with real-time search |
 
-### Professional-Grade Functionality
-| Feature | Technology Used | Benefit |
-|---------|-----------------|---------|
-| **Real-Time Drag & Drop** | JavaFX Event Handlers | Smooth UX with 60fps animations |
-| **Secure Data Storage** | SQLite + JDBC | ACID-compliant transactions |
-| **Modern UI/UX** | CSS3 + JavaFX Scene Builder | Material Design-inspired interface |
-| **Cross-Platform** | JavaFX Graphics Pipeline | Runs on Windows/Linux/Mac |
+### Advanced Features
+- 🌗 **Dark/Light Mode** (Automatically saves preference)
+- 📤 **CSV Export** (One-click data export)
+- ⚡ **60 FPS Animations** (Silky smooth transitions)
+- 📅 **Due Date Alerts** (Color-coded deadline warnings)
 
-### Enterprise-Ready Architecture
-```mermaid
-graph TD
-    A[Presentation Layer] -->|JavaFX| B[Business Logic]
-    B -->|JDBC| C[Data Layer]
-    C --> D[SQLite Database]
-    B --> E[Utility Modules]
-    E --> F[CSV Export]
-    E --> G[Theme Manager]
+## 🛠️ Tech Stack
 
-🛠️ Tech Stack
-Core Framework:
-JavaFX
-Maven
+### Frontend
+![JavaFX](https://img.shields.io/badge/JavaFX-17-%234DABF7?logo=javafx)
+![CSS3](https://img.shields.io/badge/CSS3-%231572B6?logo=css3)
+![SceneBuilder](https://img.shields.io/badge/Scene_Builder-17-%23FF6F00)
 
-Key Dependencies:
-SQLite JDBC
-ControlsFX
+### Backend
+![SQLite](https://img.shields.io/badge/SQLite-3.40-%23003B57?logo=sqlite)
+![JDBC](https://img.shields.io/badge/JDBC-4.2-%232C8EBB)
 
-Development Tools:
-IntelliJ
-SceneBuilder
+### Tools
+![Maven](https://img.shields.io/badge/Maven-3.8-%23C71A36?logo=apache-maven)
+![IntelliJ](https://img.shields.io/badge/IntelliJ_IDEA-2023.1-%23000000?logo=intellij-idea)
 
-🖥️ System Requirements
-Minimum:
-Windows
+## 📦 Installation
+
+### Prerequisites
+- Java 17+ ([Download](https://adoptium.net/))
+- Maven 3.8+ ([Guide](https://maven.apache.org/install.html))
+
+### Step-by-Step
+```bash
+# Clone repository
+git clone https://github.com/[YOUR_USERNAME]/kanban-task-manager.git
+
+# Navigate to project
+cd kanban-task-manager
+
+# Build with Maven
+mvn clean install
+
+# Run application
+mvn javafx:run
